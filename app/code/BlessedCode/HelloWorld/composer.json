@@ -1,0 +1,26 @@
+{
+    "name": "blessedcode/module-helloworld",
+    "description": "Module creation for tests",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        },
+        {
+            "email": "frank.c.rojas@gmail.com",
+            "name": "Frank Cede\u00f1o"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "BlessedCode\\HelloWorld\\": ""
+        }
+    }
+}
